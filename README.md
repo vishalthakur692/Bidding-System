@@ -20,4 +20,16 @@
 	* Future items
 	* Logout
 
-* use python .\manage.py runserver to deploy the code 
+* use python .\manage.py runserver to deploy the code
+
+**you are supposed to write your email and app password in settings.py**<br/>
+
+**At line 131,132**
+
+
+```python
+
+EMAIL_HOST_USER = 'YOUR EMAIL'
+EMAIL_HOST_PASSWORD = "YOUR EMAIL'S APP-PASSWORD"
+
+```
